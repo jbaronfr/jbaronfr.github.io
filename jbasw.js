@@ -20,6 +20,8 @@ self.addEventListener('install', function (e) {
                 '/assets/fonts/fontawesome-webfont.woff2',
                 '/assets/fonts/FontAwesome.otf',
                 '/assets/js/respond.min.js',
+                '/images/avatar.png',
+                '/images/bg.jpg'
             ]);
         })
     );

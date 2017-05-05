@@ -1,0 +1,13 @@
+{
+    "short_name": "jBaron",
+    "name": "Julien Baron",
+    "icons": [{
+        "src": "/images/avatar.png",
+        "type": "image/png",
+        "sizes": "192x192"
+    }],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+}
