@@ -1,11 +1,24 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# profile: http://ogp.me/ns/profile#">
 	<title>Julien Baron</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="theme-color" content="#ffffff">
+	<meta property="og:type" content="profile" />
+	<meta property="og:url" content="https://jbaron.fr" />
+	<meta property="og:title" content="Julien Baron" />
+	<meta property="og:image" content="images/avatar.png" />
+	<meta property="og:description" content="Software Architect/Engineer" />
+	<meta property="profile:first_name" content="Julien" />
+	<meta property="profile:last_name" content="Baron" />
+	<meta property="profile:gender" content="male" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@jbaronfr" />
+	<meta name="twitter:title" content="Julien Baron" />
+	<meta name="twitter:description" content="Software Architect/Engineer" />
+	<meta name="twitter:image" content="images/avatar.png" />
 	<link rel="icon" sizes="192x192" href="images/avatar.png">
 	<link rel="manifest" href="manifest.json">
 	<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
@@ -23,25 +36,17 @@
 			<script type="application/ld+json">
 				{
 					"@context": "http://schema.org",
-					"@type": "Person",
-					"@id": "#jbaronfr",
-					"name": "Julien Baron",
-					"birthDate": "1990-08-26",
-					"image": "https://www.jbaron.fr/images/avatar.jpg",
-					"jobTitle": "Software Architect/Engineer",
-					"address": {
-						"@type": "PostalAddress",
-						"addressLocality": "Rouen",
-						"addressCountry": "France"
-					},
-					"url": "https://www.jbaron.fr",
-					"sameAs": [
-						"https://twitter.com/jbaronfr",
-						"https://www.linkedin.com/in/jbaronfr",
-						"https://www.flickr.com/photos/baronj30"
-					]
+					"@type": "NewsArticle",
+					"headline": "Julien Baron, Software Architect/Engineer",
+					"image": {
+						"@type": "ImageObject",
+						"url": "https://www.jbaron.fr/images/avatar.jpg",
+						"height": 192,
+						"width": 192
+					}
 				}
 			</script>
+
 			<header>
 				<span class="avatar"><img src="images/avatar.png" alt="Photo of Julien Baron" /></span>
 				<h1>Julien Baron</h1>
