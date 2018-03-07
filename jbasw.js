@@ -8,18 +8,9 @@ self.addEventListener('install', function (e) {
                 '/index.html',
                 '/index.html?homescreen=1',
                 '/?homescreen=1',
-                '/assets/css/main.min.css',
-                '/assets/css/images/overlay.png',
-                '/assets/css/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2',
-                '/assets/fonts/fontawesome-webfont.eot',
-                '/assets/fonts/fontawesome-webfont.svg',
-                '/assets/fonts/fontawesome-webfont.ttf',
-                '/assets/fonts/fontawesome-webfont.woff',
-                '/assets/fonts/fontawesome-webfont.woff2',
-                '/assets/fonts/FontAwesome.otf',
+                '/assets/css/simple.min.css',
                 '/assets/js/respond.min.js',
-                '/images/avatar.png',
-                '/images/bg.jpg'
+                '/images/avatar.png'
             ]);
         })
     );
